@@ -2,28 +2,19 @@
   <head>
     <title>Сайт дебила</title>
   </head>
-  <body>
+  <body background = "https://c.tenor.com/e5-vmCtRTQ8AAAAC/%D0%BF%D0%B0%D0%BF%D0%B8%D1%87-arthas.gif">
       <p>Oh, hello there!</p>
       <p>ОНО РАБОТАЕТ</p>
     <div>
       <h1><a href="/">В МЕНЯ НИКТО НЕ ВЕРИЛ,НО У МЕНЯ ПОЛУЧИЛОСЬ</a></h1>
       <p>ЧЕЛОВЕК ЯЙЦО? ОН СУЩЕСТВУЕТ?</p>
     </div>
-
+    {% for post in posts %}
     <div>
-      <h2><a href=""> ПЕРВЫЙ ПОСТ В ЭТОЙ БЕЗДНЕ </a></h2>
-      <p>О чём же он будет?</p>
+      <p>published: {{ post.published_date }}</p>
+      <h1><a href="">{{ post.title }}</a></h1>
+      <p>{{ post.text|linebreaksbr}}</p>
     </div>
-
-    <div>
-      <h3><a href="">ВТОРОЙ ПОСТ</a></h3>
-      <p>ЧТООООООООООООО?</p>
-    </div>
-
-    <div>
-      <h4>Опенинг берсерка гейский?</h4>
-      <p>SO FEEL NO SHAME ABOUT SHAPE</p>
-      <p>WHEATHER CHANGES THEIR PHRASE</p>
-    </div>
+    {% endfor %}
   </body>
 </html>
