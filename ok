@@ -1,0 +1,42 @@
+[33mcommit c52d4732ba486b9be6f2bb4c6c1be66a3f5d2768[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: t0lis <thebog96@gmail.com>
+Date:   Tue Jun 21 14:18:26 2022 +0700
+
+    'Oleg'
+
+[33mcommit a899c16184455b30b21aa0429fc0a420326f0a36[m
+Author: t0lis <thebog96@gmail.com>
+Date:   Tue Jun 21 14:04:43 2022 +0700
+
+    'suka'
+
+[33mcommit 578134f4103cb1f98bbb7c8d7f96f3e95066c9d5[m
+Merge: cd6f36c e675ad3
+Author: t0lis <thebog96@gmail.com>
+Date:   Sun Jun 19 21:06:35 2022 +0700
+
+    Merge branch 'master' of https://github.com/t0lis/my-first-blog
+
+[33mcommit cd6f36c6b797fb8416e119a34eb802ad0f0e835f[m
+Author: t0lis <thebog96@gmail.com>
+Date:   Sun Jun 19 21:04:36 2022 +0700
+
+    Changed the HTML for the site.
+
+[33mcommit e675ad3b0d9d7ca640d5de5a9163f915dcf79851[m
+Author: t0lis <107796319+t0lis@users.noreply.github.com>
+Date:   Sun Jun 19 19:58:37 2022 +0700
+
+    Update settings.py
+
+[33mcommit 0ec15317b640a3956955e969f352f089672d008a[m
+Author: t0lis <107796319+t0lis@users.noreply.github.com>
+Date:   Sun Jun 19 19:25:46 2022 +0700
+
+    Update settings.py
+
+[33mcommit 9db2f6bf04649035963d41d8dec20bdac64c8ec3[m
+Author: t0lis <thebog96@gmail.com>
+Date:   Sun Jun 19 18:56:07 2022 +0700
+
+    My Django app, first commit
